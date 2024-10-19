@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf2363231231215215215"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"linkedService1_password": {
+			"value": ""
+		},
+		"linkedService2_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://praxr.dfs.core.windows.net/"
+		},
+		"linkedService1_properties_typeProperties_server": {
+			"value": "newsqlserverer.database.windows.net"
+		},
+		"linkedService1_properties_typeProperties_database": {
+			"value": "newdba1"
+		},
+		"linkedService1_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		}
+	}
+}
